@@ -20,7 +20,7 @@ type Props = {
 export const connectToContract = async (props: Props) => {
   // rpcのURL
   // const blockchainUrl = "ws://127.0.0.1:9944";
-  const blockchainUrl = "Blast: wss://shibuya.public.blastapi.io";
+  const blockchainUrl = "wss://shibuya.public.blastapi.io";
 
   // この関数でアカウント情報を取得する
   const extensionSetup = async () => {
